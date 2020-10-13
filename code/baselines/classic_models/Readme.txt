@@ -1,0 +1,1 @@
+All of the classic baseline models (MNB, LR, and SVM) are implemented with the help of the scikit-learn framework and use its default hyperparameters and Term Frequency Inverse Document Frequency (TFIDF) to get the values of unigram input features. For other hyperparameter settings, please, refer to the original paper.
