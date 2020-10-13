@@ -5,13 +5,9 @@ import torch.nn as nn
 import torch.optim as optim
 import torchtext.vocab as vocab
 import torch.nn.functional as F
+from kkltk.kin_kir_stopwords import stopwords   # check https://github.com/Andrews2017/kkltk for more detailed information about kkltk package
 
-stopset = {'aba', 'abo', 'aha', 'aho', 'ari', 'ati', 'aya', 'ayo', 'ba', 'baba', 'babo', 'bari', 'be', 'bo', 'bose',
-           'bw', 'bwa', 'bwo', 'by', 'bya', 'byo', 'cy', 'cya', 'cyo', 'dr', 'hafi', 'ibi', 'ibyo', 'icyo', 'iki',
-           'imwe', 'iri', 'iyi', 'iyo', 'izi', 'izo', 'ka', 'ko', 'ku', 'kuri', 'kuva', 'kwa', 'maze', 'mu', 'muri',
-           'na', 'naho','nawe', 'ngo', 'ni', 'niba', 'nk', 'nka', 'no', 'nta', 'nuko', 'rero', 'rw', 'rwa', 'rwo', 'ry',
-           'rya','ubu', 'ubwo', 'uko', 'undi', 'uri', 'uwo', 'uyu', 'wa', 'wari', 'we', 'wo', 'ya', 'yabo', 'yari', 'ye',
-           'yo', 'yose', 'za', 'zo'}
+stopset_kin = stopwords.words('kinyarwanda') 
 
 # Generate the custom embeddings
 custom_embeddings = vocab.Vectors(name='../pre-trained_embeddings/kinyarwanda/W2V-Kin-50.txt',
