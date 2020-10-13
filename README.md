@@ -29,7 +29,8 @@ To train you own word vectors, check [code/embeddings/word2vec_training.py](http
 ## Stopwords
 
 ## Leaderboard (baselines)
-### KINNEWS
+### Monolingual
+#### KINNEWS
 | Model | Accuracy(%)|
 | ----- | ----------- |
 | BiGRU(W2V-Kin-50*) | 88.65 |
@@ -40,7 +41,7 @@ To train you own word vectors, check [code/embeddings/word2vec_training.py](http
 | LR(TF-IDF) | 87.14 |
 | MNB(TF-IDF) | 82.70 |
 | Char-CNN | 71.70 |
-### KIRNEWS
+#### KIRNEWS
 | Model | Accuracy(%)|
 | ----- | ----------- |
 | SVM(TF-IDF) | 90.14 |
