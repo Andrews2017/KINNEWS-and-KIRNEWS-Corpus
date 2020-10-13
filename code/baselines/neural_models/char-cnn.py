@@ -14,7 +14,7 @@ csv.field_size_limit(sys.maxsize)
 class MyDataset(Dataset):
     def __init__(self, data_path, max_length=1500):
         self.data_path = data_path
-        self.vocabulary = list("""abcdefghijklmnoprstuvwyz0123456789-,;.!?:’’’/\|_@#$%ˆ&*˜‘+-=<>()[]{}""")
+        self.vocabulary = list("""abcdefghijklmnoprstuvwyz0123456789-,;.!?:’’’/\|_@#$%ˆ&*˜‘+-=<>()[]{}""") # removed 'q' and 'x' as they do not exist in Kinyarwanda and Kirundi alphabets
         self.identity_mat = np.identity(len(self.vocabulary))
         texts, labels = [], []
         with open(data_path) as csv_file:
