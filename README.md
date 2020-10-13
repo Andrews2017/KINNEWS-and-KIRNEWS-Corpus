@@ -25,3 +25,29 @@ Each dataset is in camma-separated-value (csv) format, with columns that are des
 
 ### Training your own embeddings 
 To train you own word vectors, check [code/embeddings/word2vec_training.py](https://github.com/Andrews2017/KINNEWS-and-KIRNEWS/tree/main/code/embeddings) file or refer to this [gensim](https://radimrehurek.com/gensim/models/word2vec.html) documentation.
+
+## Leaderboard
+### KINNEWS
+| Model | Accuracy(%)|
+| ----- | ----------- |
+| BiGRU(W2V-Kin-50*) | 88.65 |
+| SVM(TF-IDF) | 88.53 |
+| BiGRU(W2V-Kin-100) | 88.29 |
+| CNN(W2V-Kin-50) | 87.55 |
+| CNN(W2V-Kin-100) | 87.54 |
+| LR(TF-IDF) | 87.14 |
+| MNB(TF-IDF) | 82.70 |
+| Char-CNN | 71.70 |
+### KIRNEWS
+| Model | Accuracy(%)|
+| ----- | ----------- |
+| SVM(TF-IDF) | 90.14 |
+| CNN(W2V-Kin-100) | 88.01 |
+| BiGRU(W2V-Kin-100) | 86.61 |
+| LR(TF-IDF) | 86.13|
+| BiGRU(W2V-Kin-50) | 85.86 |
+| CNN(W2V-Kin-50) | 85.75 |
+| MNB(TF-IDF) | 82.67 |
+| Char-CNN | 69.23 |
+
+### Cross-lingual
