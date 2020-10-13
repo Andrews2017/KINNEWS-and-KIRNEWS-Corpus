@@ -1,80 +1,80 @@
-1. aba
-2. abo
-3. aha
-4. aho
-5. ari
-6. ati
-7. aya
-8. ayo
-9. ba
-10. baba
-11. babo
-12. bari
-13. be
-14. bo
-15. bose
-16. bw
-17. bwa
-18. bwo
-19. by
-20. bya
-21. byo
-22. cy
-23. cya
-24. cyo
-25. hafi
-26. ibi
-27. ibyo
-28. icyo
-29. iki
-30. imwe
-31. iri
-32. iyi
-33. iyo
-34. izi
-35. izo
-36. ka
-37. ko
-38. ku
-39. kuri
-40. kuva
-41. kwa
-42. maze
-43. mu
-44. muri
-45. na
-46. naho
-47. nawe
-48. ngo
-49. ni
-50. niba
-51. nk
-52. nka
-53. no
-54. nta
-55. nuko
-56. rero
-57. rw
-58. rwa
-59. rwo
-60. ry
-61. rya
-62. ubu
-63. ubwo
-64. uko
-65. undi
-66. uri
-67. uwo
-68. uyu
-69. wa
-70. wari
-71. we
-72. wo
-73. ya
-74. yabo
-75. yari
-76. ye
-77. yo
-78. yose
-79. za
-80. zo
+aba
+abo
+aha
+aho
+ari
+ati
+aya
+ayo
+ba
+baba
+babo
+bari
+be
+bo
+bose
+bw
+bwa
+bwo
+by
+bya
+byo
+cy
+cya
+cyo
+hafi
+ibi
+ibyo
+icyo
+iki
+imwe
+iri
+iyi
+iyo
+izi
+izo
+ka
+ko
+ku
+kuri
+kuva
+kwa
+maze
+mu
+muri
+na
+naho
+nawe
+ngo
+ni
+niba
+nk
+nka
+no
+nta
+nuko
+rero
+rw
+rwa
+rwo
+ry
+rya
+ubu
+ubwo
+uko
+undi
+uri
+uwo
+uyu
+wa
+wari
+we
+wo
+ya
+yabo
+yari
+ye
+yo
+yose
+za
+zo
