@@ -1,5 +1,5 @@
 # KINNEWS-and-KIRNEWS
-Data, Embeddings, Stopword lists, and code for COLING 2020 paper titled "KINNEWS and KIRNEWS: Benchmarking Cross-Lingual Text Classification for Kinyarwanda and Kirundi"
+Data, Embeddings, Stopword lists, and code for [COLING 2020](https://coling2020.org/) paper titled "KINNEWS and KIRNEWS: Benchmarking Cross-Lingual Text Classification for Kinyarwanda and Kirundi" by [Rubungo Andre Niyongabo](https://scholar.google.com/citations?user=5qnTWQEAAAAJ&hl=en), [Hong Qu](https://scholar.google.com/citations?user=Aiq9mFMAAAAJ&hl=en), [Julia Kreutzer](https://scholar.google.co.uk/citations?user=j4cOSzAAAAAJ&hl=en), and Li Hunag.
 
 ## Data
 ### Download the datasets
