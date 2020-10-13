@@ -1,11 +1,12 @@
 # KINNEWS-and-KIRNEWS
 Data, Embeddings, Stopword lists, and code for COLING 2020 paper titled "KINNEWS and KIRNEWS: Benchmarking Cross-Lingual Text Classification for Kinyarwanda and Kirundi"
 
-## Download the datasets
+## Data
+### Download the datasets
 - The raw and cleaned versions of KINNEWS can be downloaded from [here](https://drive.google.com/drive/u/0/folders/1zxn0hgrOLlUsK5V0c7l71eAj1t2jiyox)
 - The raw and cleaned versions of KIRNEWS can be downloaded from [here](https://drive.google.com/drive/u/0/folders/1WNA5e_VRb4Jifgbvfvq4eCrQSDyd5Z_g)
 
-## Datasets description
+### Datasets description
 Each dataset is in camma-separated-value (csv) format, with columns that are described bellow:
 | Field | Description |
 | ----- | ----------- |
@@ -17,4 +18,10 @@ Each dataset is in camma-separated-value (csv) format, with columns that are des
 | title | The title of the news article |
 | content | The full content of the news article |
 
-## Download pre-trained word emmbeddings
+## Word embeddings
+### Download pre-trained word emmbeddings
+- The Kinyarwanda embeddings can be downloaded form [here](https://drive.google.com/drive/u/0/folders/1d-ZoTGErWLWAFdTAC8h9QRC3ZLByV0Zf)
+- The Kirundi embeddings can be downloaded from [here](https://drive.google.com/drive/u/0/folders/1tZPPAgp7UnciQxaDqs0haxPpgbJv1iZ1)
+
+### Training your own embeddings 
+To train you own word vectors, check [code/embeddings/word2vec_training.py](https://github.com/Andrews2017/KINNEWS-and-KIRNEWS/tree/main/code/embeddings) file or refer to this [gensim](https://radimrehurek.com/gensim/models/word2vec.html) documentation.
