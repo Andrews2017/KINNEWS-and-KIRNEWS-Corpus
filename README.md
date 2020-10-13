@@ -51,3 +51,20 @@ To train you own word vectors, check [code/embeddings/word2vec_training.py](http
 | Char-CNN | 69.23 |
 
 ### Cross-lingual
+| Model | Train set| Test set | Accuracy(%) |
+| ----- | ----------- | ------- | ---------|
+| MNB(TF-IDF) | KINNEWS | KIRNEWS | 73.46 |
+| SVM(TF-IDF) | KINNEWS | KIRNEWS | 72.70 |
+| LR(TF-IDF) | KINNEWS | KIRNEWS | 68.26 |
+| BiGRU(W2V-Kin-50) | KINNEWS | KIRNEWS | 67.54 |
+| BiGRU(W2V-Kin-100*) | KINNEWS | KIRNEWS | 65.06 |
+| CNN(W2V-Kin-100) | KINNEWS | KIRNEWS | 61.72 |
+| CNN(W2V-Kin-50) | KINNEWS | KIRNEWS | 60.64 |
+| Char-CNN | KINNEWS | KIRNEWS | 49.60 |
+
+| Model | Train set| Test set | Accuracy(%) |
+| ----- | ----------- | ------- | ---------|
+| CNN(W2V-Kin-100) | KIRNEWS | KIRNEWS | 88.01 |
+| BiGRU(W2V-Kin-100) | KIRNEWS | KIRNEWS | 86.61 |
+| CNN(W2V-Kin-50) | KIRNEWS | KIRNEWS | 85.75 |
+| BiGRU(W2V-Kin-50) | KIRNEWS | KIRNEWS | 83.38 |
