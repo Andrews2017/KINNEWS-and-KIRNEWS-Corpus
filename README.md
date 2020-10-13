@@ -26,7 +26,7 @@ Each dataset is in camma-separated-value (csv) format, with columns that are des
 ### Training your own embeddings 
 To train you own word vectors, check [code/embeddings/word2vec_training.py](https://github.com/Andrews2017/KINNEWS-and-KIRNEWS/tree/main/code/embeddings) file or refer to this [gensim](https://radimrehurek.com/gensim/models/word2vec.html) documentation.
 
-## Leaderboard
+## Leaderboard (baselines)
 ### KINNEWS
 | Model | Accuracy(%)|
 | ----- | ----------- |
