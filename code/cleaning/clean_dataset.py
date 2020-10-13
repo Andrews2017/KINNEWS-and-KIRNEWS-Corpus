@@ -1,11 +1,7 @@
 import pandas as pd
+from kkltk.kin_kir_stopwords import stopwords   # check https://github.com/Andrews2017/kkltk for more detailed information about how to use kkltk package
 
-stopset_kin = {'aba', 'abo', 'aha', 'aho', 'ari', 'ati', 'aya', 'ayo', 'ba', 'baba', 'babo', 'bari', 'be', 'bo', 'bose',
-           'bw', 'bwa', 'bwo', 'by', 'bya', 'byo', 'cy', 'cya', 'cyo', 'hafi', 'ibi', 'ibyo', 'icyo', 'iki',
-           'imwe', 'iri', 'iyi', 'iyo', 'izi', 'izo', 'ka', 'ko', 'ku', 'kuri', 'kuva', 'kwa', 'maze', 'mu', 'muri',
-           'na', 'naho','nawe', 'ngo', 'ni', 'niba', 'nk', 'nka', 'no', 'nta', 'nuko', 'rero', 'rw', 'rwa', 'rwo', 'ry',
-           'rya','ubu', 'ubwo', 'uko', 'undi', 'uri', 'uwo', 'uyu', 'wa', 'wari', 'we', 'wo', 'ya', 'yabo', 'yari', 'ye',
-           'yo', 'yose', 'za', 'zo'}
+stopset_kin = stopwords.words('kinyarwanda') 
 
 # loading the data
 data = pd.read_csv('../data/KINNEWS/raw/train.csv')
