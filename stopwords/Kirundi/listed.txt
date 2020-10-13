@@ -1,59 +1,59 @@
-1. aba
-2. abo
-3. aho
-4. ari
-5. ata
-6. ati
-7. ayo
-8. ba
-9. bari
-10. bo
-11. bose
-12. bw
-13. bwa
-14. bwo
-15. ca
-16. cane
-17. co
-18. de
-19. ico
-20. iryo
-21. ivyo
-22. iyo
-23. izo
-24. ko
-25. ku
-26. kuri
-27. kuva
-28. kw
-29. maze
-30. mu
-31. muri
-32. mw
-33. na
-34. naho
-35. nayo
-36. ngo
-37. ni
-38. nk
-39. no
-40. rero
-41. rw
-42. ry
-43. rya
-44. ubu
-45. uko
-46. uri
-47. uwo
-48. uyu
-49. vy
-50. vya
-51. vyo
-52. wa
-53. wo
-54. ya
-55. yari
-56. yo
-57. yose
-58. za
-59. zo
+aba
+abo
+aho
+ari
+ata
+ati
+ayo
+ba
+bari
+bo
+bose
+bw
+bwa
+bwo
+ca
+cane
+co
+de
+ico
+iryo
+ivyo
+iyo
+izo
+ko
+ku
+kuri
+kuva
+kw
+maze
+mu
+muri
+mw
+na
+naho
+nayo
+ngo
+ni
+nk
+no
+rero
+rw
+ry
+rya
+ubu
+uko
+uri
+uwo
+uyu
+vy
+vya
+vyo
+wa
+wo
+ya
+yari
+yo
+yose
+za
+zo
