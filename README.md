@@ -5,8 +5,8 @@ Data, Embeddings, Stopword lists, code, and baselines for [COLING 2020](https://
 
 ## Data
 ### Download the datasets
-- The raw and cleaned versions of KINNEWS can be downloaded from [here](https://drive.google.com/drive/u/0/folders/1zxn0hgrOLlUsK5V0c7l71eAj1t2jiyox)
-- The raw and cleaned versions of KIRNEWS can be downloaded from [here](https://drive.google.com/drive/u/0/folders/1WNA5e_VRb4Jifgbvfvq4eCrQSDyd5Z_g)
+- The raw and cleaned versions of KINNEWS can be downloaded from [here](https://drive.google.com/drive/u/0/folders/1zxn0hgrOLlUsK5V0c7l71eAj1t2jiyox) (21,268 articles, 14 classes, 45.07MB(raw) and 38.85MB(cleaned))
+- The raw and cleaned versions of KIRNEWS can be downloaded from [here](https://drive.google.com/drive/u/0/folders/1WNA5e_VRb4Jifgbvfvq4eCrQSDyd5Z_g) (4,612 articles, 12 classes, 9.31MB(raw) and 7.77MB(cleaned))
 
 ### Datasets description
 Each dataset is in camma-separated-value (csv) format, with columns that are described bellow:
@@ -22,8 +22,9 @@ Each dataset is in camma-separated-value (csv) format, with columns that are des
 
 ## Word embeddings
 ### Download pre-trained word emmbeddings
-- The Kinyarwanda embeddings can be downloaded form [here](https://drive.google.com/drive/u/0/folders/1d-ZoTGErWLWAFdTAC8h9QRC3ZLByV0Zf)
-- The Kirundi embeddings can be downloaded from [here](https://drive.google.com/drive/u/0/folders/1tZPPAgp7UnciQxaDqs0haxPpgbJv1iZ1)
+- The Kinyarwanda embeddings can be downloaded form [here](https://drive.google.com/drive/u/0/folders/1d-ZoTGErWLWAFdTAC8h9QRC3ZLByV0Zf) (59.88MB(100d
+) and 29.94mb(50d))
+- The Kirundi embeddings can be downloaded from [here](https://drive.google.com/drive/u/0/folders/1tZPPAgp7UnciQxaDqs0haxPpgbJv1iZ1) (17.98M(100d) and 8.96mb (50d))
 
 ### Training your own embeddings 
 To train you own word vectors, check [code/embeddings/word2vec_training.py](https://github.com/Andrews2017/KINNEWS-and-KIRNEWS/tree/main/code/embeddings) file or refer to this [gensim](https://radimrehurek.com/gensim/models/word2vec.html) documentation.
