@@ -12,7 +12,7 @@ Data, Embeddings, Stopword lists, code, and baselines for [COLING 2020](https://
 Each dataset is in camma-separated-value (csv) format, with columns that are described bellow:
 | Field | Description |
 | ----- | ----------- |
-| label | Numerical labes that range from 1 to 14 |
+| label | Numerical labels that range from 1 to 14 |
 | en_label | English labels |
 | kin_label | Kinyarwanda labels |
 | kir_label | Kirundi labels |
@@ -22,9 +22,9 @@ Each dataset is in camma-separated-value (csv) format, with columns that are des
 
 ## Word embeddings
 ### Download pre-trained word emmbeddings
-- The Kinyarwanda embeddings can be downloaded form [here](https://drive.google.com/drive/u/0/folders/1d-ZoTGErWLWAFdTAC8h9QRC3ZLByV0Zf) (59.88MB(100d
-) and 29.94mb(50d))
-- The Kirundi embeddings can be downloaded from [here](https://drive.google.com/drive/u/0/folders/1tZPPAgp7UnciQxaDqs0haxPpgbJv1iZ1) (17.98M(100d) and 8.96mb (50d))
+- The Kinyarwanda embeddings can be downloaded form [here](https://drive.google.com/drive/u/0/folders/1d-ZoTGErWLWAFdTAC8h9QRC3ZLByV0Zf) (59.88MB for 100d
+ and 29.94MB for 50d))
+- The Kirundi embeddings can be downloaded from [here](https://drive.google.com/drive/u/0/folders/1tZPPAgp7UnciQxaDqs0haxPpgbJv1iZ1) (17.98MB for 100d and 8.96MB for 50d))
 
 ### Training your own embeddings 
 To train you own word vectors, check [code/embeddings/word2vec_training.py](https://github.com/Andrews2017/KINNEWS-and-KIRNEWS/tree/main/code/embeddings) file or refer to this [gensim](https://radimrehurek.com/gensim/models/word2vec.html) documentation.
