@@ -4,6 +4,14 @@ Data, Embeddings, Stopword lists, code, and baselines for [COLING 2020](https://
 This paper introduces Kinyarwanda and Kirundi news classification datasets (KINNEWS and KIRNEWS,respectively), which were both collected from Rwanda and Burundi news websites and newspapers, for low-resource monolingual and cross-lingual multiclass classification tasks. Along with the datasets, we provide statistics, guidelines for preprocessing, pretrained word embeddings, and monolingual and cross-lingual baseline models.
 
 **Note:** Please, when using any of the resources provided here, remember to cite our paper.
+```sh
+@article{niyongabo2020kinnews,
+  title={KINNEWS and KIRNEWS: Benchmarking Cross-Lingual Text Classification for Kinyarwanda and Kirundi},
+  author={Niyongabo, Rubungo Andre and Qu, Hong and Kreutzer, Julia and Huang, Li},
+  journal={arXiv preprint arXiv:2010.12174},
+  year={2020}
+}
+```
 
 ## Data
 ### Download the datasets
