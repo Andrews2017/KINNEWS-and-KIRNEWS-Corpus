@@ -16,7 +16,7 @@ This paper introduces Kinyarwanda and Kirundi news classification datasets (KINN
 ## Data
 ### Download the datasets
 - The raw and cleaned versions of KINNEWS can be downloaded from [here](https://drive.google.com/drive/folders/1zxn0hgrOLlUsK5V0c7l71eAj1t2jiyox?usp=sharing) (21,268 articles, 14 classes, 45.07MB(raw) and 38.85MB(cleaned))
-- The raw and cleaned versions of KIRNEWS can be downloaded from [here](https://drive.google.com/drive/folders/1WNA5e_VRb4Jifgbvfvq4eCrQSDyd5Z_g?usp=sharing) (4,612 articles, 12 classes, 9.31MB(raw) and 7.77MB(cleaned))
+- The raw and cleaned versions of KIRNEWS can be downloaded from [here](https://drive.google.com/uc?export=download&id=1-53VQFOHqBeoX2JiN01X1Sxgfh78ckru) (4,612 articles, 12 classes, 9.31MB(raw) and 7.77MB(cleaned))
 
 ### Datasets description
 Each dataset is in camma-separated-value (csv) format, with columns that are described bellow:
@@ -32,9 +32,9 @@ Each dataset is in camma-separated-value (csv) format, with columns that are des
 
 ## Word embeddings
 ### Download pre-trained word emmbeddings
-- The Kinyarwanda embeddings can be downloaded form [here](https://drive.google.com/drive/folders/1d-ZoTGErWLWAFdTAC8h9QRC3ZLByV0Zf?usp=sharing) (59.88MB for 100d
+- The Kinyarwanda embeddings can be downloaded form [here](https://drive.google.com/uc?export=download&id=1-DJuVhD-8YxxOP9CBxzAJeoMTA5An2Xw) (59.88MB for 100d
  and 29.94MB for 50d)
-- The Kirundi embeddings can be downloaded from [here](https://drive.google.com/drive/folders/1tZPPAgp7UnciQxaDqs0haxPpgbJv1iZ1?usp=sharing) (17.98MB for 100d and 8.96MB for 50d)
+- The Kirundi embeddings can be downloaded from [here](https://drive.google.com/uc?export=download&id=1-BlECMnNPBIVspfBF-qccKQ1LeiEQ7JO) (17.98MB for 100d and 8.96MB for 50d)
 
 ### Training your own embeddings 
 To train you own word vectors, check [code/embeddings/word2vec_training.py](https://github.com/Andrews2017/KINNEWS-and-KIRNEWS/tree/main/code/embeddings) file or refer to this [gensim](https://radimrehurek.com/gensim/models/word2vec.html) documentation.
