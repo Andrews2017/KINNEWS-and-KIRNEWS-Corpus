@@ -19,7 +19,7 @@ This paper introduces Kinyarwanda and Kirundi news classification datasets (KINN
 - The raw and cleaned versions of KIRNEWS can be downloaded from [here](https://drive.google.com/uc?export=download&id=1-53VQFOHqBeoX2JiN01X1Sxgfh78ckru) (4,612 articles, 12 classes, 9.31MB(raw) and 7.77MB(cleaned))
 
 ### Datasets description
-Each dataset is in camma-separated-value (csv) format, with columns that are described bellow:
+Each dataset is in camma-separated-value (csv) format, with columns that are described bellow (Note that in the cleaned versions we only remain with 'label','title', and 'content' columns):
 | Field | Description |
 | ----- | ----------- |
 | label | Numerical labels that range from 1 to 14 |
