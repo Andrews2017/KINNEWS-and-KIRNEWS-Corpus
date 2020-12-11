@@ -23,13 +23,13 @@ Each dataset is in camma-separated-value (csv) format, with columns that are des
 | content | The full content of the news article |
 
 ## Word embeddings
-### Download pre-trained word emmbeddings
+### Download pre-trained word embeddings
 - The Kinyarwanda embeddings can be downloaded form [here](https://drive.google.com/uc?export=download&id=1-DJuVhD-8YxxOP9CBxzAJeoMTA5An2Xw) (59.88MB for 100d
  and 29.94MB for 50d)
 - The Kirundi embeddings can be downloaded from [here](https://drive.google.com/uc?export=download&id=1-BlECMnNPBIVspfBF-qccKQ1LeiEQ7JO) (17.98MB for 100d and 8.96MB for 50d)
 
 ### Training your own embeddings 
-To train you own word vectors, check [code/embeddings/word2vec_training.py](https://github.com/Andrews2017/KINNEWS-and-KIRNEWS/tree/main/code/embeddings) file or refer to this [gensim](https://radimrehurek.com/gensim/models/word2vec.html) documentation.
+To train you own word vectors, check out [code/embeddings/word2vec_training.py](https://github.com/Andrews2017/KINNEWS-and-KIRNEWS/tree/main/code/embeddings) file or refer to this [gensim](https://radimrehurek.com/gensim/models/word2vec.html) documentation.
 
 ## Stopwords
 To use our stopwords you may just copy the whole [stopset_kin](https://github.com/Andrews2017/KINNEWS-and-KIRNEWS/blob/main/stopwords/Kinyarwanda/Kinyarwanda%20stopwords%20set.txt) for Kinyarwanda and [stopset_kir](https://github.com/Andrews2017/KINNEWS-and-KIRNEWS/blob/main/stopwords/Kirundi/Kirundi%20stopwords%20set.txt) for Kirundi into your code or import them directly from [KKLTK](https://github.com/Andrews2017/kkltk) package, which is more recommended.
