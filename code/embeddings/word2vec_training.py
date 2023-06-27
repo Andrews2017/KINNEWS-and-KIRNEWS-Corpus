@@ -17,16 +17,16 @@ sent = [row.split(' ') for row in data['whole_doc'] if len(row)]
 sent = [[tok.lower() for tok in sub_sent if len(tok) != 0] for sub_sent in sent]
 
 # Training the model
-w2v_model = Word2Vec(sent, window=5, min_count=5, sg=1, hs=1, size=50)
+w2v_model = Word2Vec(sent, window=5, min_count=5, sg=1, hs=1, vector_size=50)
 
 # Generate a list of words with their vectors to make the custom embeddings generation possible
 w2v_vectors = []
-for token, idx in w2v_model.wv.vocab.items():
+for token, idx in w2v_model.wv.key_to_index.items():
     str_vec = ''
-    if token in w2v_model.wv.vocab.keys():
+    if token in w2v_model.wv.key_to_index.keys():
         str_vec += token
-        for i in range(len(w2v_model[token])):
-            str_vec += ' ' + str(w2v_model[token][i])
+        for i in range(len(w2v_model.wv[token])):
+            str_vec += ' ' + str(w2v_model.wv[token][i])
     w2v_vectors.append(str_vec)
 
 # Save the above embeddings list in txt file
